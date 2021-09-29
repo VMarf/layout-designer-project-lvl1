@@ -1,1 +1,44 @@
 /** CSS STYLE **/
+@font-face {
+  font-weight: 400;
+  font-family: 'Neucha';
+  src: url('../fonts/Neucha/Neucha-Regular.ttf');
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Open Sans';
+  src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf');
+}
+
+.header {
+  padding: 100px 165px;
+}
+
+.hard-fix {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding: 100px 165px;
+}
+
+.video-section {}
+
+.navigation-section {}
+
+.cognitive-biases-sections-the-ikea-effect {}
+
+.cognitive-biases-sections-premature-optimization {}
+
+.cognitive-biases-sections-distortion-of-novelty {}
+
+.cognitive-biases-sections-hyperbolic-depreciation {}
+
+.cognitive-biases-sections-errors-in-planning {}
+
+.footer {
+  padding: 100px 165px;
+}
