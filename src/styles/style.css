@@ -15,6 +15,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.container {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .btn {
   position: relative;
   display: inline-block;
@@ -45,18 +51,30 @@ html {
 .neucha-heading-1 {
   font-family: 'Neucha', sans-serif;
   font-size: 72px;
+  font-weight: 400;
   line-height: 89px;
 }
 
+.neucha-heading-2 {
+  font-family: 'Neucha', sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 75px;
+}
+
+.simple-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
 .header {
-  padding: 100px 165px;
   background-color: #F5F4EF;
 }
 
-.hard-fix {
-  width: 1110px;
-  margin-left: auto;
-  margin-right: auto;
+.header .container {
+  padding: 100px 165px;
 }
 
 .background {
@@ -73,7 +91,7 @@ html {
   height: 100%;
   background-image: url('../images/background.png');
   background-repeat: no-repeat;
-  opacity: 10%;
+  opacity: 6%;
 }
 
 .introduction {
@@ -114,19 +132,50 @@ html {
 .introduction-info-item-text {
   margin-top: 0;
   margin-bottom: 15px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
+}
+
+.main {
+  background-color: #FFFFFF;
 }
 
 .section {
   padding: 100px 165px;
 }
 
-.video-section {}
+.video-section {
+  margin-bottom: -85px;
+  padding-bottom: 0;
+}
 
-.navigation-section {}
+.video-container {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.video-heading {
+  margin: 0 0 26px;
+  text-align: center;
+  color: #2A2626;
+}
+
+.video-heading-highlight {
+  color: #FE8A02;
+}
+
+.video-text {
+  margin: 0 0 30px;
+  text-align: center;
+}
+
+.video-container {
+  width: 919px;
+  height: 569px;
+  margin: 0 auto;
+}
+
+.navigation-section {
+  padding-top: 185px;
+  background-color: #42413C;
+}
 
 .cognitive-biases-sections-the-ikea-effect {}
 
@@ -138,6 +187,19 @@ html {
 
 .cognitive-biases-sections-errors-in-planning {}
 
+.cognitive-biases-light {
+  background-color: #F5F4EF;
+}
+
+.cognitive-biases-dark {
+  background-color: #B09A81;
+}
+
 .footer {
+  padding: 100px 165px;
+  background-color: #FFFFFF;
+}
+
+.footer .container {
   padding: 100px 165px;
 }
