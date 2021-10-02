@@ -62,6 +62,13 @@ html {
   line-height: 75px;
 }
 
+.neucha-heading-3 {
+  font-family: 'Neucha', sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 41px;
+}
+
 .simple-text {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -173,8 +180,70 @@ html {
 }
 
 .navigation-section {
-  padding-top: 185px;
+  padding-top: 201px;
   background-color: #42413C;
+}
+
+.navigation-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px -15px;
+}
+
+.navigation-heading {
+  width: 350px;
+  margin: 10px 15px;
+  font-family: 'Neucha', sans-serif;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px;
+  color: #FFFFFF;
+  box-sizing: border-box;
+}
+
+.navigation-heading-highlight {
+  color: #FE8A02;
+}
+
+.navigation-item {
+  display: block;
+  width: 350px;
+  margin: 10px 15px;
+  padding: 22px 24px;
+  background-color: #F5F4F0;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.navigation-item:hover {
+  background-color: #FE8A02;
+}
+
+.navigation-item:hover .navigation-item-number,
+.navigation-item:hover .navigation-item-heading,
+.navigation-item:hover .navigation-item-text {
+  color: #FFFFFF;
+}
+
+.navigation-item-number {
+  display: block;
+  margin-bottom: 35px;
+  font-family: 'Neucha', sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 70px;
+  color: #42413C;
+}
+
+.navigation-item-heading {
+  margin: 0 0 14px;
+  color: #FE8A02;
+}
+
+.navigation-item-text {
+  margin: 0;
+  color: #2A2626;
 }
 
 .cognitive-biases-sections-the-ikea-effect {}
