@@ -11,6 +11,12 @@
   src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf');
 }
 
+@font-face {
+  font-weight: 700;
+  font-family: 'Open Sans';
+  src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf');
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -96,6 +102,25 @@ html {
   z-index: 100;
   width: 100%;
   height: 100%;
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
+  opacity: 6%;
+}
+
+.cognitive-biases-background {
+  position: relative;
+}
+
+.cognitive-biases-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  width: 1110px;
+  height: 100%;
+  margin: 0 auto;
   background-image: url('../images/background.png');
   background-repeat: no-repeat;
   opacity: 6%;
@@ -262,6 +287,107 @@ html {
 
 .cognitive-biases-dark {
   background-color: #B09A81;
+}
+
+.cognitive-biases-content {
+  position: relative;
+  z-index: 300;
+  display: flex;
+  margin: 0 -15px 100px;
+}
+
+.cognitive-biases-content-img {
+  width: 578px;
+  margin: 0 15px;
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.cognitive-biases-content-introduction {
+  margin: 0 15px;
+}
+
+.cognitive-biases-content-hint {
+  font-family: 'Neucha', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.cognitive-biases-light .cognitive-biases-content-hint {
+  color: #908D8B;
+}
+
+.cognitive-biases-dark .cognitive-biases-content-hint {
+  color: #D7CCC0;
+}
+
+.cognitive-biases-content-heading {
+  margin: 0 0 25px;
+}
+
+.cognitive-biases-light .cognitive-biases-content-heading {
+  color: #2A2626;
+}
+
+.cognitive-biases-dark .cognitive-biases-content-heading {
+  color: #FFFFFF;
+}
+
+.cognitive-biases-content-text {
+  font-family: 'Neucha', sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 41px;
+}
+
+.cognitive-biases-light .cognitive-biases-content-text {
+  color: #2A2626;
+}
+
+.cognitive-biases-dark .cognitive-biases-content-text {
+  color: #FFFFFF;
+}
+
+.cognitive-biases-info-heading {
+  position: relative;
+  z-index: 300;
+  margin: 0 0 20px;
+  padding: 5px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.cognitive-biases-light .cognitive-biases-info-heading {
+  color: #FFFFFF;
+  background-color: #B09A81;
+}
+
+.cognitive-biases-dark .cognitive-biases-info-heading {
+  color: #B09A81;
+  background-color: #FFFFFF;
+}
+
+.cognitive-biases-info {
+  position: relative;
+  z-index: 300;
+  display: flex;
+  margin: 0 -15px;
+}
+
+.cognitive-biases-info-text {
+  width: 50%;
+  margin: 0 15px;
+}
+
+.cognitive-biases-light .cognitive-biases-info-text {
+  color: #2A2626;
+}
+
+.cognitive-biases-dark .cognitive-biases-info-text {
+  color: #FFFFFF;
 }
 
 .footer {
