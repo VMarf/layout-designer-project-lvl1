@@ -82,6 +82,14 @@ html {
   line-height: 26px;
 }
 
+.footer-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #000000;
+}
+
 .header {
   background-color: #F5F4EF;
 }
@@ -391,10 +399,128 @@ html {
 }
 
 .footer {
-  padding: 100px 165px;
   background-color: #FFFFFF;
 }
 
 .footer .container {
   padding: 100px 165px;
+}
+
+.footer-subscription {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 76px;
+  padding: 38px 55px 40px;
+  background-color: #42413C;
+}
+
+.footer-subscription-heading {
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.footer-subscription-email-label {
+  display: block;
+  margin-bottom: 9px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.footer-subscription-email {
+  position: relative;
+}
+
+.footer-subscription-email-input {
+  width: 485px;
+  height: 50px;
+  padding: 17px 85px 18px 15px;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #000000;
+}
+
+.footer-subscription-email-input::placeholder {
+  color: #757575;
+}
+
+.footer-subscription-email-input:focus,
+.footer-subscription-email-input:focus-visible {
+  outline: none;
+}
+
+.footer-subscription-email-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70px;
+  height: 50px;
+  padding: 0;
+  font-size: 0;
+  background-color: #FE8A02;
+  border: none;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.footer-subscription-email-btn:hover {
+  background-color: #EA7600;
+}
+
+.footer-subscription-email-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  margin: auto;
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/send.svg');
+  background-size: contain;
+}
+
+.footer-subscription-conditions {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.footer-subscription-conditions-link {
+  color: #FFFFFF;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-info-copyright {
+  margin-bottom: 16px;
+}
+
+.footer-info-source {
+  margin-bottom: 16px;
+}
+
+.footer-info-source-link {
+  text-decoration: underline;
+  color: #1085C5;
+}
+
+.footer-info-link {
+  text-decoration: underline;
+  color: #1085C5;
 }
