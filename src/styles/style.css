@@ -65,21 +65,21 @@ html {
   font-family: 'Neucha', sans-serif;
   font-size: 60px;
   font-weight: 400;
-  line-height: 75px;
+  line-height: 72px;
 }
 
 .neucha-heading-3 {
   font-family: 'Neucha', sans-serif;
   font-size: 34px;
   font-weight: 400;
-  line-height: 41px;
+  line-height: 40px;
 }
 
 .simple-text {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 25px;
 }
 
 .footer-text {
@@ -183,7 +183,7 @@ html {
 }
 
 .video-section {
-  margin-bottom: -85px;
+  margin-bottom: -93px;
   padding-bottom: 0;
 }
 
@@ -192,7 +192,7 @@ html {
 }
 
 .video-heading {
-  margin: 0 0 26px;
+  margin: 6px 0 23px;
   text-align: center;
   color: #2A2626;
 }
@@ -213,7 +213,7 @@ html {
 }
 
 .navigation-section {
-  padding-top: 201px;
+  padding-top: 200px;
   background-color: #42413C;
 }
 
@@ -225,7 +225,7 @@ html {
 
 .navigation-heading {
   width: 350px;
-  margin: 10px 15px;
+  margin: 15px 15px 10px;
   font-family: 'Neucha', sans-serif;
   font-size: 52px;
   font-weight: 400;
@@ -242,7 +242,7 @@ html {
   display: block;
   width: 350px;
   margin: 10px 15px;
-  padding: 22px 24px;
+  padding: 26px 24px 24px;
   background-color: #F5F4F0;
   box-sizing: border-box;
   text-decoration: none;
@@ -265,7 +265,7 @@ html {
   font-family: 'Neucha', sans-serif;
   font-size: 64px;
   font-weight: 400;
-  line-height: 70px;
+  line-height: 69px;
   color: #42413C;
 }
 
@@ -278,16 +278,6 @@ html {
   margin: 0;
   color: #2A2626;
 }
-
-.cognitive-biases-sections-the-ikea-effect {}
-
-.cognitive-biases-sections-premature-optimization {}
-
-.cognitive-biases-sections-distortion-of-novelty {}
-
-.cognitive-biases-sections-hyperbolic-depreciation {}
-
-.cognitive-biases-sections-errors-in-planning {}
 
 .cognitive-biases-light {
   background-color: #F5F4EF;
@@ -524,3 +514,28 @@ html {
   text-decoration: underline;
   color: #1085C5;
 }
+
+/* TODO: Удалить */
+/* .navigation-section {
+  position: relative;
+}
+
+.navigation-section .container {
+  position: relative;
+  z-index: 300;
+}
+
+.navigation-section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 200;
+  display: block;
+  width: 1440px;
+  height: 914px;
+  margin: 0 auto;
+  background-image: url('../test-images/navigation-section.png');
+} */
