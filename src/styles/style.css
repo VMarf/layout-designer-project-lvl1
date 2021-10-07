@@ -308,7 +308,7 @@ html {
   font-family: 'Neucha', sans-serif;
   font-size: 24px;
   font-weight: 400;
-  line-height: 29px;
+  line-height: 33px;
 }
 
 .cognitive-biases-light .cognitive-biases-content-hint {
@@ -332,10 +332,11 @@ html {
 }
 
 .cognitive-biases-content-text {
+  margin: 0;
   font-family: 'Neucha', sans-serif;
   font-size: 34px;
   font-weight: 400;
-  line-height: 41px;
+  line-height: 42px;
 }
 
 .cognitive-biases-light .cognitive-biases-content-text {
@@ -401,18 +402,18 @@ html {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 76px;
-  padding: 38px 55px 40px;
+  padding: 38px 55px 42px;
   background-color: #42413C;
 }
 
 .footer-subscription-heading {
-  margin: 0;
+  margin: 13px 0 0;
   color: #FFFFFF;
 }
 
 .footer-subscription-email-label {
   display: block;
-  margin-bottom: 9px;
+  margin-bottom: 8px;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -422,12 +423,13 @@ html {
 
 .footer-subscription-email {
   position: relative;
+  margin-bottom: 4px;
 }
 
 .footer-subscription-email-input {
   width: 485px;
   height: 50px;
-  padding: 17px 85px 18px 15px;
+  padding: 17px 77px 18px 15px;
   border: none;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
@@ -450,7 +452,7 @@ html {
   position: absolute;
   top: 0;
   right: 0;
-  width: 70px;
+  width: 62px;
   height: 50px;
   padding: 0;
   font-size: 0;
@@ -498,11 +500,11 @@ html {
 }
 
 .footer-info-copyright {
-  margin-bottom: 16px;
+  margin-bottom: 17px;
 }
 
 .footer-info-source {
-  margin-bottom: 16px;
+  margin-bottom: 17px;
 }
 
 .footer-info-source-link {
@@ -515,17 +517,46 @@ html {
   color: #1085C5;
 }
 
+/* Для тестов */
+.cognitive-biases-sections-premature-optimization div[style="margin-top: 30px; color: white;"] h2 {
+  margin-top: 36px;
+  margin-bottom: 10px;
+  font-family: 'Neucha', sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72px;
+  color: #FE8A02;
+}
+
+.cognitive-biases-sections-premature-optimization div[style="margin-top: 30px; color: white;"] ul {
+  margin-top: 0;
+}
+
+.cognitive-biases-sections-premature-optimization div[style="margin-top: 30px; color: white;"] li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.cognitive-biases-sections-premature-optimization div[style="margin-top: 30px; color: white;"] p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
 /* TODO: Удалить */
-/* .navigation-section {
+/* .cognitive-biases-sections-premature-optimization {
   position: relative;
 }
 
-.navigation-section .container {
+.cognitive-biases-sections-premature-optimization .container {
   position: relative;
   z-index: 300;
 }
 
-.navigation-section::after {
+.cognitive-biases-sections-premature-optimization::after {
   content: '';
   position: absolute;
   top: 0;
@@ -535,7 +566,8 @@ html {
   z-index: 200;
   display: block;
   width: 1440px;
-  height: 914px;
+  height: 1105px;
   margin: 0 auto;
-  background-image: url('../test-images/navigation-section.png');
+  background-image: url('../test-images/cognitive-biases-sections-premature-optimization2.png');
+  background-repeat: no-repeat;
 } */
