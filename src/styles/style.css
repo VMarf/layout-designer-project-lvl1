@@ -1,44 +1,48 @@
 /** CSS STYLE **/
 @font-face {
   font-weight: 400;
-  font-family: 'Neucha';
-  src: url('../fonts/Neucha/Neucha-Regular.ttf');
+  font-family: "Neucha";
+  src: url("../fonts/Neucha/Neucha-Regular.ttf");
 }
 
 @font-face {
   font-weight: 400;
-  font-family: 'Open Sans';
-  src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf');
+  font-family: "Open Sans";
+  src: url("../fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-weight: 700;
-  font-family: 'Open Sans';
-  src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf');
+  font-family: "Open Sans";
+  src: url("../fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf");
 }
 
 .container {
   width: 1110px;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 .btn {
   position: relative;
+
   display: inline-block;
+  box-sizing: border-box;
   min-width: 148px;
   padding: 11px 23px 12px 24px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+
+  color: #fff;
   font-weight: 700;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.6;
-  color: #FFFFFF;
-  vertical-align: top;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  background-color: #FE8A02;
-  box-sizing: border-box;
+  vertical-align: top;
+
+  background-color: #fe8a02;
+
   transition: 0.4s;
 }
 
@@ -47,47 +51,47 @@
 }
 
 .btn:hover {
-  background-color: #EA7600;
+  background-color: #ea7600;
 }
 
 .neucha-heading-1 {
-  font-family: 'Neucha', sans-serif;
-  font-size: 72px;
   font-weight: 400;
+  font-size: 72px;
+  font-family: "Neucha", sans-serif;
   line-height: 89px;
 }
 
 .neucha-heading-2 {
-  font-family: 'Neucha', sans-serif;
-  font-size: 60px;
   font-weight: 400;
+  font-size: 60px;
+  font-family: "Neucha", sans-serif;
   line-height: 72px;
 }
 
 .neucha-heading-3 {
-  font-family: 'Neucha', sans-serif;
-  font-size: 34px;
   font-weight: 400;
+  font-size: 34px;
+  font-family: "Neucha", sans-serif;
   line-height: 40px;
 }
 
 .simple-text {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
   font-weight: 400;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
   line-height: 25px;
 }
 
 .footer-text {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  color: #000;
   font-weight: 400;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
   line-height: 22px;
-  color: #000000;
 }
 
 .header {
-  background-color: #F5F4EF;
+  background-color: #f5f4ef;
 }
 
 .header .container {
@@ -99,16 +103,19 @@
 }
 
 .background::before {
-  content: '';
   position: absolute;
   top: 0;
   left: 0;
   z-index: 100;
+
   width: 100%;
   height: 100%;
-  background-image: url('../images/background.png');
+
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   opacity: 6%;
+
+  content: "";
 }
 
 .cognitive-biases-background {
@@ -116,18 +123,21 @@
 }
 
 .cognitive-biases-background::before {
-  content: '';
   position: absolute;
   top: 0;
-  left: 0;
   right: 0;
+  left: 0;
   z-index: 100;
+
   width: 1110px;
   height: 100%;
   margin: 0 auto;
-  background-image: url('../images/background.png');
+
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   opacity: 6%;
+
+  content: "";
 }
 
 .introduction {
@@ -137,12 +147,14 @@
 .introduction-heading {
   position: relative;
   z-index: 300;
+
   margin: 0;
-  color: #FE8A02;
+
+  color: #fe8a02;
 }
 
 .introduction-heading-highlight {
-  color: #2A2626;
+  color: #2a2626;
 }
 
 .introduction-img {
@@ -150,12 +162,14 @@
   top: 55px;
   left: 463px;
   z-index: 200;
+
   height: 525px;
 }
 
 .introduction-info {
   position: relative;
   z-index: 300;
+
   display: flex;
   margin: 0 -15px;
 }
@@ -171,7 +185,7 @@
 }
 
 .main {
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
 
 .section {
@@ -183,22 +197,20 @@
   padding-bottom: 0;
 }
 
-.video-container {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-}
-
 .video-heading {
   margin: 6px 0 23px;
+
+  color: #2a2626;
   text-align: center;
-  color: #2A2626;
 }
 
 .video-heading-highlight {
-  color: #FE8A02;
+  color: #fe8a02;
 }
 
 .video-text {
   margin: 0 0 30px;
+
   text-align: center;
 }
 
@@ -206,11 +218,14 @@
   width: 919px;
   height: 569px;
   margin: 0 auto;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .navigation-section {
   padding-top: 200px;
-  background-color: #42413C;
+
+  background-color: #42413c;
 }
 
 .navigation-container {
@@ -220,72 +235,80 @@
 }
 
 .navigation-heading {
+  box-sizing: border-box;
   width: 350px;
   margin: 15px 15px 10px;
-  font-family: 'Neucha', sans-serif;
-  font-size: 52px;
+
+  color: #fff;
   font-weight: 400;
+  font-size: 52px;
+  font-family: "Neucha", sans-serif;
   line-height: 62px;
-  color: #FFFFFF;
-  box-sizing: border-box;
 }
 
 .navigation-heading-highlight {
-  color: #FE8A02;
+  color: #fe8a02;
 }
 
 .navigation-item {
   display: block;
+  box-sizing: border-box;
   width: 350px;
   margin: 10px 15px;
   padding: 26px 24px 24px;
-  background-color: #F5F4F0;
-  box-sizing: border-box;
+
   text-decoration: none;
+
+  background-color: #f5f4f0;
+
   transition: 0.4s;
 }
 
 .navigation-item:hover {
-  background-color: #FE8A02;
-}
-
-.navigation-item:hover .navigation-item-number,
-.navigation-item:hover .navigation-item-heading,
-.navigation-item:hover .navigation-item-text {
-  color: #FFFFFF;
+  background-color: #fe8a02;
 }
 
 .navigation-item-number {
   display: block;
   margin-bottom: 35px;
-  font-family: 'Neucha', sans-serif;
-  font-size: 64px;
+
+  color: #42413c;
   font-weight: 400;
+  font-size: 64px;
+  font-family: "Neucha", sans-serif;
   line-height: 69px;
-  color: #42413C;
 }
 
 .navigation-item-heading {
   margin: 0 0 14px;
-  color: #FE8A02;
+
+  color: #fe8a02;
 }
 
 .navigation-item-text {
   margin: 0;
-  color: #2A2626;
+
+  color: #2a2626;
+}
+
+.navigation-item:hover .navigation-item-number,
+.navigation-item:hover .navigation-item-heading,
+.navigation-item:hover .navigation-item-text {
+  color: #fff;
 }
 
 .cognitive-biases-light {
-  background-color: #F5F4EF;
+  background-color: #f5f4ef;
 }
 
 .cognitive-biases-dark {
-  background-color: #B09A81;
+  background-color: #b09a81;
 }
 
 .cognitive-biases-content {
   position: relative;
   z-index: 300;
+
   display: flex;
   margin: 0 -15px 100px;
 }
@@ -293,7 +316,8 @@
 .cognitive-biases-content-img {
   width: 578px;
   margin: 0 15px;
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .cognitive-biases-content-introduction {
@@ -301,18 +325,18 @@
 }
 
 .cognitive-biases-content-hint {
-  font-family: 'Neucha', sans-serif;
-  font-size: 24px;
   font-weight: 400;
+  font-size: 24px;
+  font-family: "Neucha", sans-serif;
   line-height: 33px;
 }
 
 .cognitive-biases-light .cognitive-biases-content-hint {
-  color: #908D8B;
+  color: #908d8b;
 }
 
 .cognitive-biases-dark .cognitive-biases-content-hint {
-  color: #D7CCC0;
+  color: #d7ccc0;
 }
 
 .cognitive-biases-content-heading {
@@ -320,54 +344,60 @@
 }
 
 .cognitive-biases-light .cognitive-biases-content-heading {
-  color: #2A2626;
+  color: #2a2626;
 }
 
 .cognitive-biases-dark .cognitive-biases-content-heading {
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .cognitive-biases-content-text {
   margin: 0;
-  font-family: 'Neucha', sans-serif;
-  font-size: 34px;
+
   font-weight: 400;
+  font-size: 34px;
+  font-family: "Neucha", sans-serif;
   line-height: 42px;
 }
 
 .cognitive-biases-light .cognitive-biases-content-text {
-  color: #2A2626;
+  color: #2a2626;
 }
 
 .cognitive-biases-dark .cognitive-biases-content-text {
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .cognitive-biases-info-heading {
   position: relative;
   z-index: 300;
+
   margin: 0 0 20px;
   padding: 5px 10px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+
   font-weight: 700;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
   line-height: 16px;
   text-transform: uppercase;
 }
 
 .cognitive-biases-light .cognitive-biases-info-heading {
-  color: #FFFFFF;
-  background-color: #B09A81;
+  color: #fff;
+
+  background-color: #b09a81;
 }
 
 .cognitive-biases-dark .cognitive-biases-info-heading {
-  color: #B09A81;
-  background-color: #FFFFFF;
+  color: #b09a81;
+
+  background-color: #fff;
 }
 
 .cognitive-biases-info {
   position: relative;
   z-index: 300;
+
   display: flex;
   margin: 0 -15px;
 }
@@ -378,15 +408,15 @@
 }
 
 .cognitive-biases-light .cognitive-biases-info-text {
-  color: #2A2626;
+  color: #2a2626;
 }
 
 .cognitive-biases-dark .cognitive-biases-info-text {
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .footer {
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
 
 .footer .container {
@@ -395,44 +425,49 @@
 
 .footer-subscription {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 76px;
   padding: 38px 55px 42px;
-  background-color: #42413C;
+
+  background-color: #42413c;
 }
 
 .footer-subscription-heading {
   margin: 13px 0 0;
-  color: #FFFFFF;
+
+  color: #fff;
 }
 
 .footer-subscription-email-label {
   display: block;
   margin-bottom: 8px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+
+  color: #fff;
   font-weight: 400;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
   line-height: 29px;
-  color: #FFFFFF;
 }
 
 .footer-subscription-email {
   position: relative;
+
   margin-bottom: 4px;
 }
 
 .footer-subscription-email-input {
+  box-sizing: border-box;
   width: 485px;
   height: 50px;
   padding: 17px 77px 18px 15px;
   border: none;
-  box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
+
+  color: #000;
   font-weight: 400;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
   line-height: 21px;
-  color: #000000;
 }
 
 .footer-subscription-email-input::placeholder {
@@ -448,45 +483,53 @@
   position: absolute;
   top: 0;
   right: 0;
+
   width: 62px;
   height: 50px;
   padding: 0;
-  font-size: 0;
-  background-color: #FE8A02;
   border: none;
-  transition: 0.4s;
+
+  font-size: 0;
+
+  background-color: #fe8a02;
+
   cursor: pointer;
+
+  transition: 0.4s;
 }
 
 .footer-subscription-email-btn:hover {
-  background-color: #EA7600;
+  background-color: #ea7600;
 }
 
 .footer-subscription-email-btn::before {
-  content: '';
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+
   display: block;
-  margin: auto;
   width: 24px;
   height: 24px;
-  background-image: url('../images/send.svg');
+  margin: auto;
+
+  background-image: url("../images/send.svg");
   background-size: contain;
+
+  content: "";
 }
 
 .footer-subscription-conditions {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
+  color: #fff;
   font-weight: 400;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
   line-height: 19px;
-  color: #FFFFFF;
 }
 
 .footer-subscription-conditions-link {
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .footer-info {
@@ -504,13 +547,13 @@
 }
 
 .footer-info-source-link {
+  color: #1085c5;
   text-decoration: underline;
-  color: #1085C5;
 }
 
 .footer-info-link {
+  color: #1085c5;
   text-decoration: underline;
-  color: #1085C5;
 }
 
 /* Для тестов */
@@ -522,11 +565,12 @@
 .cognitive-biases-sections-premature-optimization .container:last-child h2 {
   margin-top: 36px;
   margin-bottom: 10px;
-  font-family: 'Neucha', sans-serif;
-  font-size: 60px;
+
+  color: #fe8a02;
   font-weight: 400;
+  font-size: 60px;
+  font-family: "Neucha", sans-serif;
   line-height: 72px;
-  color: #FE8A02;
 }
 
 .cognitive-biases-sections-premature-optimization .container:last-child ul {
@@ -534,15 +578,15 @@
 }
 
 .cognitive-biases-sections-premature-optimization .container:last-child li {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
   font-weight: 400;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
   line-height: 25px;
 }
 
 .cognitive-biases-sections-premature-optimization .container:last-child p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
   font-weight: 400;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
   line-height: 25px;
 }
