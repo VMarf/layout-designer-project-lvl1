@@ -17,6 +17,10 @@
   src: url("../fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   width: 1110px;
   margin-right: auto;
@@ -554,39 +558,4 @@
 .footer-info-link {
   color: #1085c5;
   text-decoration: underline;
-}
-
-/* Для тестов */
-.cognitive-biases-sections-premature-optimization .container:last-child {
-  position: relative;
-  z-index: 300;
-}
-
-.cognitive-biases-sections-premature-optimization .container:last-child h2 {
-  margin-top: 36px;
-  margin-bottom: 10px;
-
-  color: #fe8a02;
-  font-weight: 400;
-  font-size: 60px;
-  font-family: "Neucha", sans-serif;
-  line-height: 72px;
-}
-
-.cognitive-biases-sections-premature-optimization .container:last-child ul {
-  margin-top: 0;
-}
-
-.cognitive-biases-sections-premature-optimization .container:last-child li {
-  font-weight: 400;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  line-height: 25px;
-}
-
-.cognitive-biases-sections-premature-optimization .container:last-child p {
-  font-weight: 400;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  line-height: 25px;
 }
