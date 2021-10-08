@@ -17,10 +17,6 @@
   src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf');
 }
 
-html {
-  /* scroll-behavior: smooth; */
-}
-
 .container {
   width: 1110px;
   margin-left: auto;
